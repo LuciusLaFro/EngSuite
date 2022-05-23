@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReportRighter</title>
+    <link rel="stylesheet" type="text/css" href="./css/reportrighter.css"/>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="./index.html" id="navbar__logo"><img class="navbar__logo" src="./img/RR-logo.png" alt="ReportRighter Logo.png"/></a>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./about.html" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__links" id="-page">Buy Now</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./reportrighter/help.html" class="navbar__links">Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>   
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">ReportRighter</h1>
+            <h2 class="hero__subheading">Report writing done right!</h2>
+            <p class="hero__description">Easily create document templates that import data from Excel with the click of a button!<br> ReportRighter enables you to import charts, images, diagrams, and data from cells effortlessly into Word.</p>
+            <img src="https://th.bing.com/th/id/R.c5a25aa53f71831fbdd11a97872558f5?rik=QNhfYVj2dN5j8A&pid=ImgRaw&r=0" alt="screenshot gif of ReportRighter" class="hero__image">
+            <br><br>
+            <button class="main__btn" onclick="GoToStore()">
+                <img class="main__btn-image" src="./img/button-img.png" onclick="GoToStore()" alt="Microsoft AppSource">
+            </button>
+        </div>
+    </div>
+
+</body>
+<script>
+    function GoToStore(){
+        window.open("https://appsource.microsoft.com/en-US/");
+    }
+</script>
+</html>

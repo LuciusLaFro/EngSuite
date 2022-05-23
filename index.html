@@ -5,11 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EngSuite</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body>
-    <h1>Welcome to EngSuite</h1>
-    <a href="./ReportRighter.html">ReportRighter</a>
-    <a href="./ReportRighter/help.html">Help</a>
-    <a href="./ReportRighter/taskpane.html">Taskpane</a>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="'#home" id="navbar__logo">
+                <img src="./img/EngSuite-logo--blue.png" alt="EngSuite" class="navbar__logo"/>
+            </a>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./reportrighter.html" class="navbar__links" id="blank-page">ReportRighter</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./about.html" class="navbar__links" id="about-page">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>   
+    
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">EngSuite</h1>
+            <p class="hero__description">Welcome to EngSuite.</p>
+        </div>
+    </div>
+
+    <!-- Available Products -->
+    <div class="products" id="products">
+        <div class="products__container">
+            <h1 class="products__header">Available Products</h1>
+            <div class="products__wrapper">
+                <div class="products__card">
+                    <h1>ReportRighter</h1>
+                    <img class="products__logo" src="./img/RR-logo.png" alt="ReportRighter Logo"/>
+                    <p class="products__description">Create document templates that automatically import data and charts from Excel into Word.</p>
+                    <a class="products__learnmore" href="./reportrighter.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer_container">
+            <ul class="footer__menu">
+                <li class="footer__item">
+                    <a href="#home" class="footer__links" id="home-page-footer">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="./reportrighter.html" class="footer__links" id="-page-footer">ReportRighter</a>
+                </li>
+                <li class="footer__item">
+                    <a href="./about.html" class="footer__links" id="-page">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NavBar Styling */
+.navbar{
+    background-color: #6d6d6d;
+    
+}
+.navbar__container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    box-shadow: -1px 0px 7px 0px rgba(194, 194, 194, 0.6) inset;
+    
+}
+
+.navbar__menu{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar__item{
+    padding: 7px 30px 7px 30px;
+    margin-left: 0px;    
+    list-style: none;
+    box-shadow: -8px 0 8px -10px rgba(240, 240, 224, 0.97);
+}
+
+.navbar__item:hover, .navbar__item:focus{
+    box-shadow: inset rgba(159, 159, 159, 0.97) 0px 0px 30px -10px,  -8px 0 8px -10px rgba(240, 240, 224, 0.97), 8px 0 8px -10px rgba(240, 240, 224, 0.97);
+}
+
+.navbar__links{
+    text-decoration: none;
+    color: #dad9d9;
+}
+
+.navbar__logo{
+    width: 25%;
+    padding: 12px 15px 2px 15px;
+    margin-left: 15px;
+}
